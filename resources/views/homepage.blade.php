@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/chaah.jpg" rel="icon">
+  <link href="assets/img/chaah.jpg" rel="chaah-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -28,8 +28,8 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: iPortfolio - v3.10.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Template Name: imenu - v3.10.0
+  * Template URL: https://bootstrapmade.com/imenu-bootstrap-menu-websites-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -58,10 +58,11 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <!--<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>-->
+          <li><a href="#menu" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Menu</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ url('/login') }}">Login</a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -87,7 +88,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/bubbletea.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Cha'ah Bubble Tea</h3>
@@ -99,9 +100,9 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Jose Abad St corner, Capitol Dr, Butuan City, Agusan Del Norte, Butuan City, Philippines</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Open Hours:</strong> <span>Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone Number:</strong> <span>09190075586</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span> Jose Abad St corner, Capitol Dr, Butuan City, Agusan Del Norte, Butuan City, Philippines</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Open Hours:</strong> <span> Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone Number:</strong> <span> 09190075586</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Butuan City</span></li>
                 </ul>
               </div>
@@ -170,7 +171,7 @@
       </div>
     </section><!-- End Facts Section -->
 
-    <!-- ======= Skills Section ======= -->
+    <!-- ======= Skills Section ======= 
     <section id="skills" class="skills section-bg">
       <div class="container">
 
@@ -234,9 +235,9 @@
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
+    </section> End Skills Section -->
 
-    <!-- ======= Resume Section ======= -->
+    <!-- ======= Resume Section ======= 
     <section id="resume" class="resume">
       <div class="container">
 
@@ -300,20 +301,25 @@
         </div>
 
       </div>
-    </section><!-- End Resume Section -->
+    </section> End Resume Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <!-- ======= menu Section ======= -->
+    <section id="menu" class="menu section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Menu</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+            <div class="text-center"><br>
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://www.facebook.com/chaahbyjuyens1/posts/pfbid0Qxyp2sv7wiMAW22HLXMrTMyXL6w1U4tgcKFDEixQKh3pPfrkDpaS19LTDMBe5cQ9l"  rel="noopener noreferrer" target="_blank" >
+              Our Menu</a>
+            </div>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
+            <ul id="menu-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-card">Card</li>
@@ -322,94 +328,94 @@
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 menu-item filter-app">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/11.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/11.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 menu-item filter-web">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/12.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/12.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 menu-item filter-app">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/13.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/13.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 menu-item filter-card">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/14.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/14.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 menu-item filter-web">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/15.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/15.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 menu-item filter-app">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/16.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/16.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 menu-item filter-card">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/menu-7.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/menu-7.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 menu-item filter-card">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/menu-8.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/menu-8.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 menu-item filter-web">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/menu-9.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/menu-9.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -417,7 +423,7 @@
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End menu Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -425,40 +431,50 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>You have the option of ordering takeout, delivery, or in person.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <div class="icon">
+                <i class="icon-ellipsis-horizontal"> ••• </i> 
+            </div>
+            <h4 class="title"><a href="https://www.facebook.com/chaahbyjuyens1/posts/pfbid0Qxyp2sv7wiMAW22HLXMrTMyXL6w1U4tgcKFDEixQKh3pPfrkDpaS19LTDMBe5cQ9l">Dine-In</a></h4>
+              <p class="description">Payment Method: <br>
+                                  Accepts Cash<br>
+                                  Visa<br>
+                                  Mastercard<br>
+                                  redit Cards<br>
+                                  GCash
+              </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <div class="icon">
+              <i class="icon-ellipsis-horizontal"> ••• </i>
+            </div>
+            <h4 class="title"><a href="https://www.facebook.com/chaahbyjuyens1/posts/pfbid0Qxyp2sv7wiMAW22HLXMrTMyXL6w1U4tgcKFDEixQKh3pPfrkDpaS19LTDMBe5cQ9l">Costumer Pickup</a></h4>
+              <p class="description">Payment Method: <br>
+                                  Accepts Cash<br>
+                                  Visa<br>
+                                  Mastercard<br>
+                                  redit Cards<br>
+                                  GCash
+              </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <div class="icon">
+              <i class="icon-ellipsis-horizontal"> ••• </i>
+            </div>
+            <h4 class="title"><a href="https://www.facebook.com/chaahbyjuyens1/posts/pfbid0Qxyp2sv7wiMAW22HLXMrTMyXL6w1U4tgcKFDEixQKh3pPfrkDpaS19LTDMBe5cQ9l">Delivery area 5km</a></h4>
+            <p class="description">Payment Method: <br>
+                                  Accepts Cash<br>
+                                  Visa<br>
+                                  Mastercard<br>
+                                  redit Cards<br>
+                                  GCash
+              </p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>
+          
         </div>
 
       </div>
@@ -469,7 +485,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Testimonials</h2>
+          <h2>Reviews</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -480,12 +496,12 @@
               <div class="testimonial-item" data-aos="fade-up">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  Fun place, awesome setting, good food! The curry beef was delicious, very tender and a lot of beef. But the pineapple fried rice not so tasty. And way too much! This should be a smaller side dish. Loved the setting but menu needs a little work.                  
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src="assets/img/testimonials/tes1.png" class="testimonial-img" alt="">
+                <h3>Jeff Sharpton</h3>
+                <h4>Local Guide</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -493,12 +509,12 @@
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  I recommend this place! The place is nice at night because of the lights outside. The tables are lovely since they are made of wood. Server are kind and big food portions. For foreigners with big appetite this place is best.. For Filipinos, one dish is good for two.                  
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <img src="assets/img/testimonials/tes2.png" class="testimonial-img" alt="">
+                <h3>Marivic Yacapin</h3>
+                <h4>Local Guide</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -506,12 +522,12 @@
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  Nice cozy place to listen to live music, food is lovely affordable. Not recommended for heavy drinkers, because its quite pricey. Overall, dining in is great.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <img src="assets/img/testimonials/tes3.png" class="testimonial-img" alt="">
+                <h3>Emmy Mordz</h3>
+                <h4>Local Guide</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -519,12 +535,12 @@
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Food is good, price a little pricey but expected from the output. Relaxing atmosphere and good for nightography. Restroom could be better.                  
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <img src="assets/img/testimonials/tes5.png" class="testimonial-img" alt="">
+                <h3>Papapau Papapau</h3>
+                <h4>Local Guide</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -532,12 +548,12 @@
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  Service was superb, great ambiance and crews were approachable. Food and drinks are reasonably priced. Live singers were awesome.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <img src="assets/img/testimonials/tes4.png" class="testimonial-img" alt="">
+                <h3>nova lumactod</h3>
+                <h4>Local Guide</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -554,7 +570,7 @@
 
           <div class="section-title">
             <h2>Contact</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p>Please get in touch with us using the details shown below if you have any questions.</p>
           </div>
 
         <div class="row" data-aos="fade-in">
@@ -564,19 +580,19 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Jose Abad St corner, Capitol Dr, Butuan City, Agusan Del Norte, Butuan City, Philippines</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>juyen052416@yahoo.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>09190075586</p>
               </div>
 
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
@@ -624,13 +640,13 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
+        &copy; Copyright <strong><span>imenu</span></strong>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/imenu-bootstrap-menu-websites-template/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
